@@ -1,0 +1,31 @@
+# =============================================
+#        AlwaysOnline Plugin Configuration
+#        Keeps your server running 24/7
+# =============================================
+
+# How often (in minutes) to run the keep-alive ping
+# This does a lightweight health check to ensure the server is responsive
+keep-alive-interval-minutes: 5
+
+# Print a log message during each keep-alive ping
+# Useful for monitoring; disable if your logs get too noisy
+log-keep-alive: false
+
+# Warn in console when memory usage exceeds 85%
+warn-high-memory: true
+
+# Warn in console when TPS drops below 15
+warn-low-tps: true
+
+# Block the /stop command entirely (useful for unmanaged servers)
+# WARNING: Set this to false if you ever need to shut down properly!
+block-stop-command: false
+
+# Print a warning in console when /stop is issued
+warn-on-stop: true
+
+# Log a message when the server becomes empty (no players online)
+log-empty-server: false
+
+# Show server uptime to admins when they join
+show-uptime-on-join: true

@@ -1,0 +1,18 @@
+name: AlwaysOnline
+version: 1.0.0
+main: com.alwaysonline.AlwaysOnlinePlugin
+api-version: 1.13
+author: AlwaysOnline
+description: Keeps your Minecraft server running 24/7 with monitoring and crash protection.
+
+commands:
+  alwaysonline:
+    description: AlwaysOnline plugin commands
+    usage: /alwaysonline [status|meminfo|tps|reload|help]
+    aliases: [aol, online]
+    permission: alwaysonline.admin
+
+permissions:
+  alwaysonline.admin:
+    description: Access to all AlwaysOnline commands
+    default: op
